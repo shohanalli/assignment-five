@@ -29,10 +29,10 @@ for(let callButton of callButtons){
           alert (cardTittle.innerText + " - " + number.innerText);
        let newCoins = coinCounterConvert - 20;
        coinCounter.innerText = newCoins;
-    }
+    };
    
-  })
-}
+  });
+};
 
 
 

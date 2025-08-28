@@ -9,7 +9,7 @@ for (let copyButton of copyButtons){
         let copyCount = document.querySelector('.copy-count');
         let currentCount = parseInt(copyCount.innerText);
         copyCount.innerText = currentCount + 1;
-    })
+    });
 
 
 
