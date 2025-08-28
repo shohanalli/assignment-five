@@ -11,7 +11,7 @@ for(let hartButton of hartButtons){
 };
 
 // On clicking a card's **Call Button**, following actions will happen
-var callButtons = document.querySelectorAll(".call-button");
+let callButtons = document.querySelectorAll(".call-button");
 
 for(let callButton of callButtons){
   callButton.addEventListener('click', function () {
@@ -31,8 +31,8 @@ for(let callButton of callButtons){
        coinCounter.innerText = newCoins;
     }
    
-
   })
 }
+
 
 
